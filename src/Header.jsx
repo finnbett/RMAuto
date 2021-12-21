@@ -1,1 +1,0 @@
-//logo with the other contact information
