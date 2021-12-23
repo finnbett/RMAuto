@@ -15,29 +15,25 @@ body {
   }
 }
 img {
-  width: 100vw;
+  width: 10vw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  background-color: black;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.title, .link {
+  color: #f6eb0b;
+}
+.icon {
+  color: white;
+  font-size: 3rem;
+}
+.phone-header {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
