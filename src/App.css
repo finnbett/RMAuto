@@ -16,12 +16,14 @@ body {
 }
 img {
   width: 10vw;
+  min-width: 100px;
 }
 .navbar {
   background-color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 .title, .link {
@@ -29,10 +31,28 @@ img {
 }
 .icon {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .phone-header {
   color: white;
+}
+.title-phone-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.email-facebook-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.email-facebook {
+  margin: 0.5em;
+}
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
