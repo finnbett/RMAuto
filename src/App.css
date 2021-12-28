@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 .App {
   text-align: center;
 }
 body {
   background-color: grey;
+
 }
 .App-logo {
   height: 40vmin;
@@ -26,8 +28,12 @@ img {
   flex-wrap: wrap;
 
 }
+.title{
+  font-size: 3rem;
+}
 .title, .link {
   color: #f6eb0b;
+  font-family: 'Goldman', cursive;
 }
 .icon {
   color: white;
@@ -54,6 +60,16 @@ img {
   justify-content: center;
   align-items: center;
 }
+.icon:hover {
+  transition: 0.25s;
+  color: #a3872c;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 
 
 

@@ -18,14 +18,14 @@ export function Header () {
                     <h1 className="title">R.M. Auto Repairs</h1>
                 </div>
                 <div className="email-facebook-wrapper">
-                    <FontAwesomeIcon icon={faEnvelope} className="icon email-facebook"></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faEnvelope} className="icon email-facebook"></FontAwesomeIcon><span className="phone-header">rikomahe18@gmail.com</span>
                     <FontAwesomeIcon icon={faFacebook} className="icon email-facebook"></FontAwesomeIcon>
                 </div>
 
                 
                 <div className="nav-links">
-                    <h2 className="link">Services</h2>
-                    <h2 className="link">Contact</h2>
+                    <a href="#services"><h2 className="link">Services</h2></a>
+                    <a href="#contact"><h2 className="link">Contact</h2></a>
                 </div>
 
 

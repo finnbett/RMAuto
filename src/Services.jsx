@@ -5,7 +5,7 @@
 export function Services () {
     return(
         <>
-            <h1>Services</h1>
+            <a id="services"><h1 className="category">Services</h1></a>
             <ul>
                 <li>Oil Change</li>
                 <li>Servicing</li>
