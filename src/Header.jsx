@@ -13,12 +13,12 @@ export function Header () {
                 <img src="./rmlogo.png" alt="logo" />
                 <div className="title-phone-wrapper">
                     <div className="phone-header">
-                        <FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon><span className="phone-header">022 192 9380</span>
+                    <a href="tel:+64221929380"><FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon></a><span className="phone-header">022 192 9380</span>
                     </div>
                     <h1 className="title">R.M. Auto Repairs</h1>
                 </div>
                 <div className="email-facebook-wrapper">
-                    <FontAwesomeIcon icon={faEnvelope} className="icon email-facebook"></FontAwesomeIcon><span className="phone-header">rikomahe18@gmail.com</span>
+                <a href="mailto:rikomahe18@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icon email-facebook"></FontAwesomeIcon></a><span className="phone-header">rikomahe18@gmail.com</span>
                     <FontAwesomeIcon icon={faFacebook} className="icon email-facebook"></FontAwesomeIcon>
                 </div>
 

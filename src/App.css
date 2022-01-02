@@ -68,8 +68,52 @@ img {
 a {
   text-decoration: none;
   color: white;
+  text-align: center;
+}
+li {
+  font-size: 1.30rem;
+  font-weight: 500;
+  list-style-type: none;
+  margin-top: 1em;
+  color: white;
 }
 
+.list-container {
+  display: flex;
+  justify-content:space-around; 
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 
+.services-container {
+  background-image: url('placeholder.jpg');
+  width: 100vw;
 
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.address-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  flex-wrap: wrap;
+}
+address{
+  font-size: 1.254rem;
+}
+
+@media screen and (max-width: 620px) {
+  iframe {
+    width:100vw;
+  }
+  
+}
 
