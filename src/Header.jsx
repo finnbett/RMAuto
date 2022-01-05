@@ -13,7 +13,7 @@ export function Header () {
                 <img src="./rmlogo.png" alt="logo" />
                 <div className="title-phone-wrapper">
                     <div className="phone-header">
-                    <a href="tel:+64221929380"><FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon></a><span className="phone-header">022 192 9380</span>
+                    <a href="tel:+64221929380"><FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon><span className="phone-header">022 192 9380</span></a>
                     </div>
                     <h1 className="title">R.M. Auto Repairs</h1>
                 </div>

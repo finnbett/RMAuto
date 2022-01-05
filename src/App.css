@@ -3,7 +3,7 @@
   text-align: center;
 }
 body {
-  background-color: grey;
+  background-color: black;
 
 }
 .App-logo {
@@ -34,6 +34,20 @@ img {
 .title, .link {
   color: #f6eb0b;
   font-family: 'Goldman', cursive;
+}
+.home-container {
+  background-image: url('placeholder.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:50vh;
+}
+.content-caption {
+  font-family: 'Goldman', cursive;
+  text-align: center;
+}
+h2{
+  color: white;
 }
 .icon {
   color: white;
@@ -70,6 +84,9 @@ a {
   color: white;
   text-align: center;
 }
+p {
+  color:white;
+}
 li {
   font-size: 1.30rem;
   font-weight: 500;
@@ -89,6 +106,7 @@ li {
 .services-container {
   background-image: url('placeholder.jpg');
   width: 100vw;
+  
 
 }
 
@@ -109,11 +127,27 @@ li {
 address{
   font-size: 1.254rem;
 }
+.content-caption {
+  color: white;
+}
 
 @media screen and (max-width: 620px) {
   iframe {
     width:100vw;
   }
   
+  .title {
+    text-align: center;
+  }
+  .list-container {
+    justify-content: left;
+  }
+  .contact-container {
+    justify-content: left;
+    margin-left: 1em;
+  }
+  .contact-child {
+    margin-right: 1em;
+  }
 }
 
