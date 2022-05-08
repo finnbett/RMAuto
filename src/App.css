@@ -36,15 +36,19 @@ img {
   font-family: 'Goldman', cursive;
 }
 .home-container {
-  background-image: url('placeholder.jpg');
+  background-image: url('/src/images/IMG_2009.jpg') no-repeat center center ;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   height:50vh;
 }
-.content-caption {
+
+#content-caption {
   font-family: 'Goldman', cursive;
   text-align: center;
+  opacity: 100%;
+  color: white;
 }
 h2{
   color: white;

@@ -4,7 +4,7 @@ export function Home () {
     return(
         <>
         <div className="home-container"> 
-            <h1 className="content-caption">We Repair all Makes and models</h1>
+            <h1 id="content-caption">We Repair all Makes and Models</h1>
         </div>
         </>
     )
