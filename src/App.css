@@ -36,20 +36,38 @@ img {
   font-family: 'Goldman', cursive;
 }
 .home-container {
-  background-image: url('/src/images/IMG_2009.jpg') no-repeat center center ;
-  background-size: cover;
+
+  position: relative;
+  padding-top: 15%;
+  padding-bottom: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height:50vh;
+  /* opacity: 0.5; */
+}
+
+.home-container::before {
+  content: '';
+  background-image: url('images/IMG_1964.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
 }
 
 #content-caption {
   font-family: 'Goldman', cursive;
   text-align: center;
-  opacity: 100%;
+  color: white;
+  position: relative;
+}
+h1 {
   color: white;
 }
+
 h2{
   color: white;
 }
@@ -108,7 +126,7 @@ li {
 }
 
 .services-container {
-  background-image: url('placeholder.jpg');
+  /* background-image: url('images/IMG_2003.jpg'); */
   width: 100vw;
   
 
