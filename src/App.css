@@ -58,6 +58,68 @@ img {
   opacity: 0.5;
 }
 
+.slide1 .slide2 .slide3 .slide4 {
+  position: relative;
+
+}
+.slide1::before {
+  content: '';
+  background-image: url('images/IMG_1979.jpg');
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  opacity: 0.5;
+}
+
+.slide2::before {
+  content: '';
+  background-image: url('images/IMG_2007.jpg');
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  opacity: 0.5;
+}
+.slide3::before {
+  content: '';
+  background-image: url('images/IMG_1973.jpg');
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  opacity: 0.5;
+}
+.slide4::before {
+  content: '';
+  background-image: url('images/IMG_1970.jpg');
+  background-repeat: none;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom:0;
+  opacity: 0.5;
+}
+
+.list-child-col {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+
+
 #content-caption {
   font-family: 'Goldman', cursive;
   text-align: center;
@@ -89,6 +151,13 @@ h2{
 }
 .email-facebook {
   margin: 0.5em;
+}
+.list-child {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .nav-links {
   display: flex;
@@ -124,6 +193,7 @@ li {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 
 .services-container {
   /* background-image: url('images/IMG_2003.jpg'); */
