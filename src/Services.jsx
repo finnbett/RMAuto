@@ -54,7 +54,7 @@ export function Services () {
                                 <div className="list-child-col">
                                     <ul>
                                         <li>Fault Diagnostics</li>
-                                        <li>General Mechanical Repairs</li>
+                                        <li>General Repairs</li>
                                     </ul>
                                 </div>
                             </div>

@@ -26,6 +26,8 @@ img {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 1em;
+  margin-bottom: 1em;
 
 }
 .title{
@@ -35,6 +37,8 @@ img {
   color: #f6eb0b;
   font-family: 'Goldman', cursive;
 }
+
+
 .home-container {
 
   position: relative;
@@ -50,6 +54,9 @@ img {
   content: '';
   background-image: url('images/IMG_1964.jpg');
   background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   right: 0;
@@ -67,6 +74,7 @@ img {
   background-image: url('images/IMG_1979.jpg');
   background-repeat: none;
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -80,6 +88,7 @@ img {
   background-image: url('images/IMG_2007.jpg');
   background-repeat: none;
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -92,6 +101,7 @@ img {
   background-image: url('images/IMG_1973.jpg');
   background-repeat: none;
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -104,6 +114,7 @@ img {
   background-image: url('images/IMG_1970.jpg');
   background-repeat: none;
   background-size: cover;
+  background-position: center;
   position: absolute;
   top: 0;
   right: 0;
@@ -139,6 +150,7 @@ h2{
 }
 .phone-header {
   color: white;
+  margin-left: 1.5em;
 }
 .title-phone-wrapper {
   display: flex;
@@ -179,11 +191,13 @@ p {
   color:white;
 }
 li {
-  font-size: 1.30rem;
-  font-weight: 500;
+  font-size: 2.30rem;
+  font-weight: 600;
   list-style-type: none;
   margin-top: 1em;
+  margin-bottom: 1.5em;
   color: white;
+  text-shadow: 10px 10px 20px black;
 }
 
 .list-container {
@@ -195,11 +209,15 @@ li {
 }
 
 
+
 .services-container {
   /* background-image: url('images/IMG_2003.jpg'); */
   width: 100vw;
   
 
+}
+.category {
+  margin-top: 1em;
 }
 
 .contact-container {
@@ -216,6 +234,7 @@ li {
   align-items: top;
   flex-wrap: wrap;
 }
+
 address{
   font-size: 1.254rem;
 }
@@ -238,11 +257,23 @@ address{
     justify-content: left;
   }
   .contact-container {
-    justify-content: left;
+    justify-content: space-around;
     margin-left: 1em;
   }
   .contact-child {
     margin-right: 1em;
+  }
+  .email{
+    align-self: flex-start;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .address-text{
+    margin-left: 1.5em;
+  }
+  li{
+    font-size: 1.30rem;
   }
 }
 
