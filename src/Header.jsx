@@ -19,7 +19,9 @@ export function Header () {
                 </div>
                 <div className="email-facebook-wrapper">
                 <a href="mailto:rikomahe18@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="icon email-facebook"></FontAwesomeIcon></a><span className="phone-header">rikomahe18@gmail.com</span>
-                    <FontAwesomeIcon icon={faFacebook} className="icon email-facebook facebook-icon" ></FontAwesomeIcon>
+                    <a href="https://m.facebook.com/RM-Auto-Repairs-Ltd-104058145644044/">
+                        <FontAwesomeIcon icon={faFacebook} className="icon email-facebook facebook-icon" ></FontAwesomeIcon>
+                    </a>
                 </div>
 
                 

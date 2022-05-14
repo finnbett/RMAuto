@@ -14,8 +14,10 @@ export function Contact () {
                 <a href="tel:+64221929380"><FontAwesomeIcon icon={faPhone} className="icon"></FontAwesomeIcon><span>022 192 9380</span></a>
             </div>
             <div className="contact-child">
-                <h2>Facebook</h2>
-                        <FontAwesomeIcon icon={faFacebook} className="icon"></FontAwesomeIcon>
+                <a href="https://m.facebook.com/RM-Auto-Repairs-Ltd-104058145644044/">
+                    <h2>Facebook</h2>
+                            <FontAwesomeIcon icon={faFacebook} className="icon"></FontAwesomeIcon>
+                </a>
             </div>
             <div className="contact-child email">
                 <h2>Email</h2>
@@ -23,12 +25,16 @@ export function Contact () {
             </div>
         </div>
             <div className="address-container">
-            <h2>Opening Hours</h2>
+            <div className="opening-hours">
+                <h2 className="opening-hours-heading">Opening Hours</h2>
+                <p className="hours">Monday to Friday: <p className="weekdays">5:30pm- 10:30pm</p></p>
+                <p className="hours">Weekends: <p className="weekends">9am- 5pm</p></p>
+            </div>
                 <div className="address-child">
                     <div className="address-text">
                         <h2>Address</h2>
                         <address>
-                            <p>4 Hautonga Street <br/> Petone,<br/> Lower Hutt</p>
+                            <p>4 Hautonga Street <br/> Petone<br/> Lower Hutt</p>
                         </address>
                     </div>
                     
@@ -38,6 +44,6 @@ export function Contact () {
             </div>
     </>
     )
-    //map
+    
 
 }
