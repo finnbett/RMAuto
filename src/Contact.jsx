@@ -29,13 +29,17 @@ export function Contact () {
                 <h2 className="opening-hours-heading">Opening Hours</h2>
                 <p className="hours">Monday to Friday: <p className="weekdays">5:30pm- 10:30pm</p></p>
                 <p className="hours">Weekends: <p className="weekends">9am- 5pm</p></p>
+                <img className="sign" src="sign2.jpg" alt="sign" />
             </div>
                 <div className="address-child">
                     <div className="address-text">
                         <h2>Address</h2>
-                        <address>
-                            <p>4 Hautonga Street <br/> Petone<br/> Lower Hutt</p>
-                        </address>
+                        
+                            <address>
+                                <p>4 Hautonga Street <br/> Petone<br/> Lower Hutt</p>
+                            </address>
+                            
+                      
                     </div>
                     
                     

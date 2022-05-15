@@ -254,6 +254,55 @@ address{
   font-size: 1.5em;
 }
 
+.address-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sign{
+  width: 500px;
+  margin-bottom: 2em;
+}
+
+.final-call{
+  position: relative;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.final-call::before{
+    content: '';
+    background-image: url('images/IMG_2009.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom:0;
+    opacity: 0.5;
+}
+
+.final-call-text{
+  font-family: 'Goldman', cursive;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-size: 4em;
+  
+}
+
+.link-services{
+  margin-bottom: 0.5em;
+}
+.link-contact{
+  margin-top: 0.5em;
+}
+
 
 
 @media screen and (max-width: 620px) {
@@ -288,6 +337,16 @@ address{
   }
   li{
     font-size: 1.30rem;
+  }
+  .sign{
+    width:300px;
+    margin-bottom: 2em;
+  }
+  .link-services{
+    margin-bottom: 1em;
+  }
+  .link-contact{
+    margin-top: 1em;
   }
 }
 

@@ -4,6 +4,7 @@ import { Header } from './Header';
 import { Services } from './Services';
 import { Contact } from './Contact';
 import { Home } from './Home';
+import { FinalCall } from './FinalCall';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Home />
     <Services />
     <Contact />
+    <FinalCall />
  
 
   </>

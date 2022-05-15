@@ -26,8 +26,8 @@ export function Header () {
 
                 
                 <div className="nav-links">
-                    <a href="#services"><h2 className="link">Services</h2></a>
-                    <a href="#contact"><h2 className="link">Contact</h2></a>
+                    <a href="#services"><h2 className="link link-services">Services</h2></a>
+                    <a href="#contact"><h2 className="link link-contact">Contact</h2></a>
                 </div>
 
 
