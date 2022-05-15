@@ -7,7 +7,7 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons"
 export function Contact () {
     return( 
     <>
-        <a id="contact"><h1 className="category">Contact</h1></a>
+        <a href="#contact" id="contact"><h1 className="category">Contact</h1></a>
         <div className="contact-container">
             <div className="contact-child">
                 <h2>Phone</h2>

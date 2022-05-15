@@ -8,7 +8,7 @@ export function Services () {
     return(
         <>
             <div className="services-container">
-                <a id="services"><h1 className="category">Services</h1></a>
+                <a href="#services" id="services"><h1 className="category">Services</h1></a>
                 <Carousel>
                     <Carousel.Item interval={10000}>
                             {/* <img className="d-block w-100" src="images/IMG_1964.jpg" alt="first-slide"/> */}
