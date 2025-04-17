@@ -36,14 +36,14 @@ export function Contact () {
                         <h2>Address</h2>
                         
                             <address>
-                                <p>4 Hautonga Street <br/> Petone<br/> Lower Hutt</p>
+                                <p>1/29 Bridge Street <br/> Melling<br/> Lower Hutt</p>
                             </address>
                             
                       
                     </div>
                     
                     
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d750.1211603393833!2d174.89341332926176!3d-41.23299999870492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38abcbf78e3407%3A0xf7d5ffb2ddc4f983!2s4%20Hautonga%20Street%2C%20Petone%2C%20Lower%20Hutt%205012!5e0!3m2!1sen!2snz!4v1640122456321!5m2!1sen!2snz" title="Location" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.497334895935!2d174.8962161!3d-41.210931300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38abab03e368c3%3A0x7d85796e61e272a8!2s29%20Bridge%20Street%2C%20Melling%2C%20Lower%20Hutt%205010!5e0!3m2!1sen!2snz!4v1744808417657!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
     </>
