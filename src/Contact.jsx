@@ -43,7 +43,7 @@ export function Contact () {
                     </div>
                     
                     
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.497334895935!2d174.8962161!3d-41.210931300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38abab03e368c3%3A0x7d85796e61e272a8!2s29%20Bridge%20Street%2C%20Melling%2C%20Lower%20Hutt%205010!5e0!3m2!1sen!2snz!4v1744808417657!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.497334895935!2d174.8962161!3d-41.210931300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38abab03e368c3%3A0x7d85796e61e272a8!2s29%20Bridge%20Street%2C%20Melling%2C%20Lower%20Hutt%205010!5e0!3m2!1sen!2snz!4v1744809418354!5m2!1sen!2snz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
     </>
